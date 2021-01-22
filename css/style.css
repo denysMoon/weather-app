@@ -1,0 +1,100 @@
+body{
+    background: url("../img/1.jpg");
+    background-size: cover;
+}
+.main{
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 50px;
+    width: 400px;
+    margin-top: 15px;
+}
+.display{
+    width: 360px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+h2{
+    margin-left: 50px;
+    padding: 15px;
+}
+.button-watch{
+    margin-top: 10px;
+}
+.card{
+    display: none;
+}
+.card-watch{
+    display: block;
+}
+span{
+    font-weight: 700;
+}
+
+
+/* Side menu */
+
+.button-menu{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.button-menu_hide{
+    display: none;
+}
+.button-menu_item{
+    height: 10px;
+    background: #c4b1b1;
+    width: 40px;
+    border-radius: 5px;
+}
+.side-menu{
+    width: 200px;
+    height: 100%;
+    top: 0px;
+    left: -200px;
+    position: fixed;
+    background: white;
+}
+.side-menu_show{
+    left: 0px;
+    transition: 1s;
+}
+.menu-hide{
+    margin-top: 80px;
+    margin-left: 350px;
+    cursor: pointer;
+}
+.menu-hide>img{
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-top: 0px;
+    margin-left: 150px;
+}
+.fa-search{
+    margin-left: 50px;
+}
+.city{
+    text-transform: capitalize;
+}
+p{
+    padding: 20px;
+}
